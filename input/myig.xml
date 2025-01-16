@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="br.gov.saude.sample.fhir" />
+  <language value="pt-BR" />
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="informative" />
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1" />
+  </extension>
+  <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.sample.fhir" />
+  <version value="0.1.0" />
+  <name value="SAMPLERNDSIG" />
+  <title value="Guia de Implementação Sample da RNDS" />
+  <status value="active" />
+  <experimental value="false" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://www.saude.gov.br" />
+    </telecom>
+  </contact>
+  <description value="Guia de Implementação Sample da RNDS" />
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166" />
+      <code value="BR" />
+    </coding>
+  </jurisdiction>
+  <packageId value="br.gov.saude.sample.fhir" />
+  <license value="CC0-1.0" />
+  <fhirVersion value="4.0.1" />
+  <!-- <dependsOn>
+    <uri value="http://terminologia.saude.gov.br/fhir" />
+    <packageId value="br.gov.saude.terminologia.fhir" />
+    <version value="1.0.0" />
+  </dependsOn> -->
+  <!-- <dependsOn>
+    <uri value="http://www.saude.gov.br/fhir/r4" />
+    <packageId value="br.ufg.cgis.rnds-lite" />
+    <version value="1.0.0" />
+  </dependsOn> -->
+  <definition>
+    <resource>
+      <reference>
+        <reference value="Bundle/Bundle-Materno" />
+      </reference>
+      <name value="Bundle de exemplo do SAO Materno" />
+      <description
+        value="Bundle de exemplo do Sumário de Alta Obstétrico (SAO) Materno" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAltaObstetrico" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/Bundle-Neonato-1" />
+      </reference>
+      <name value="Bundle de exemplo do SAO Neonato 1" />
+      <description
+        value="Bundle de exemplo do Sumário de Alta Obstétrico (SAO) Neonato" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAltaObstetricoNeonato" />
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Bundle/Bundle-Neonato-2" />
+      </reference>
+      <name value="Bundle de exemplo do SAO Neonato 2" />
+      <description
+        value="Bundle de exemplo do Sumário de Alta Obstétrico (SAO) Neonato" />
+      <exampleCanonical
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAltaObstetricoNeonato" />
+    </resource>
+    <page>
+      <nameUrl value="toc.html" />
+      <title value="Índice" />
+      <generation value="html" />
+      <page>
+        <nameUrl value="index.html" />
+        <title value="Principal" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="seguranca.html" />
+        <title value="Segurança" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="integracao.html" />
+        <title value="Integração" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="credenciamento.html" />
+        <title value="Credenciamento" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="mc.html" />
+        <title value="Modelo Computacional" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="mi.html" />
+        <title value="Modelo de Informação" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="exemplos.html" />
+        <title value="Exemplos" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="downloads.html" />
+        <title value="Useful Downloads" />
+        <generation value="html" />
+      </page>
+      <page>
+        <nameUrl value="changes.html" />
+        <title value="Histórico de mudanças" />
+        <generation value="html" />
+      </page>
+    </page>
+    <parameter>
+      <code value="copyrightyear" />
+      <value value="2023+" />
+    </parameter>
+    <parameter>
+      <code value="releaselabel" />
+      <value value="STU1" />
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input\history" />
+    </parameter>
+    <parameter>
+      <code value="shownav" />
+      <value value="true" />
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources" />
+    </parameter>
+    <parameter>
+      <code value="path-pages" />
+      <value value="input/pagecontent" />
+    </parameter>
+  </definition>
+</ImplementationGuide>
