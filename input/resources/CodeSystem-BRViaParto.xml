@@ -1,0 +1,26 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRViaParto" />
+  <meta>
+    <lastUpdated value="2021-12-01T13:16:09.8385573+00:00" />
+  </meta>
+  <language value="pt-BR" />
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaParto" />
+  <version value="1.0" />
+  <name value="BRViaParto" />
+  <title value="Via de Parto" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2021-12-01T13:16:09.8385573+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="Code System utilizado para definir a via de parto." />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="1" />
+    <display value="Vaginal" />
+  </concept>
+  <concept>
+    <code value="2" />
+    <display value="Cesariana" />
+  </concept>
+</CodeSystem>

@@ -1,0 +1,20 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BRTurno" />
+  <language value="pt-BR" />
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BRTurno" />
+  <version value="1.0" />
+  <name value="BRTurno" />
+  <title value="Turno do dia" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2021-12-01T13:16:09.8385573+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="ValueSet utilizado para definir o turno de um dia." />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTurno" />
+      <version value="*" />
+    </include>
+  </compose>
+</ValueSet>

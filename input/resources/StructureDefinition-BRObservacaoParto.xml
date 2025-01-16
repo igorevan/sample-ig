@@ -1,0 +1,42 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="BRObservacaoParto" />
+  <language value="pt-BR" />
+  <url value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoParto" />
+  <version value="01.00" />
+  <name value="BRObservacaoParto" />
+  <title value="Observação do Parto" />
+  <status value="draft" />
+  <publisher value="Ministério da Saúde" />
+  <description value="Extensão para incluir informações relativas ao parto." />
+  <fhirVersion value="4.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <context>
+    <type value="element" />
+    <expression value="Observation" />
+  </context>
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoParto" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <short value="Código da informação do parto" />
+      <type>
+        <code value="Annotation" />
+      </type>
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <description value="Informação" />
+        <valueSet value="http://www.saude.gov.br/fhir/r4/ValueSet/BRObservacaoParto" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>

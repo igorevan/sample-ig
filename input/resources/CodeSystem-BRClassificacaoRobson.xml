@@ -1,0 +1,63 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="BRClassificacaoRobson" />
+	<language value="pt-BR" />
+	<url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRClassificacaoRobson" />
+	<version value="1.0" />
+	<name value="BRClassificacaoRobson" />
+	<title value="Classificação de Robson" />
+	<status value="active" />
+	<experimental value="false" />
+	<publisher value="Ministério da Saúde do Brasil" />
+	<description value="Code System utilizado para definir o grupo da classificação de Robson" />
+	<caseSensitive value="true" />
+	<content value="complete" />
+	<concept>
+		<code value="1" />
+		<display
+			value="Grupo 1: Nulíparas com feto único, cefálico, ≥37 semanas, em trabalho de parto espontâneo" />
+	</concept>
+	<concept>
+		<code value="2" />
+		<display
+			value="Grupo 2: Nulíparas com feto único, cefálico, ≥37 semanas, cujo parto é induzido ou que são submetidas à cesárea antes do início do trabalho de parto" />
+	</concept>
+	<concept>
+		<code value="3" />
+		<display
+			value="Grupo 3: Multíparas sem cesárea anterior, com feto único, cefálico, ≥37 semanas, em trabalho de parto espontâneo" />
+	</concept>
+	<concept>
+		<code value="4" />
+		<display
+			value="Grupo 4: Multíparas sem cesárea anterior, com feto único, cefálico, ≥37 semanas, cujo parto é induzido ou que são submetidas à cesárea antes do início do trabalho de parto" />
+	</concept>
+	<concept>
+		<code value="5" />
+		<display
+			value="Grupo 5: Todas multíparas com pelo menos uma cesárea anterior, com feto único, cefálico, ≥37 semanas" />
+	</concept>
+	<concept>
+		<code value="6" />
+		<display value="Grupo 6: Todas nulíparas com feto único em apresentação pélvica" />
+	</concept>
+	<concept>
+		<code value="7" />
+		<display
+			value="Grupo 7: Todas multíparas com feto único em apresentação pélvica, incluindo aquelas com cesárea(s) anterior(es)" />
+	</concept>
+	<concept>
+		<code value="8" />
+		<display
+			value="Grupo 8: Todas mulheres com gestação múltipla, incluindo aquelas com cesárea(s) anterior(es)" />
+	</concept>
+	<concept>
+		<code value="9" />
+		<display
+			value="Grupo 9: Todas gestantes com feto em apresentação transversa ou oblíqua, incluindo aquelas com cesárea(s) anterior(es)" />
+	</concept>
+	<concept>
+		<code value="10" />
+		<display
+			value="Todas gestantes com feto único e cefálico, menor 37 semanas, incluindo aquelas com cesárea(s) anterior(es)" />
+	</concept>
+</CodeSystem>

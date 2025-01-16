@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="1be1c745-28e1-4693-950e-a651ba6eeebe" />
+  <meta>
+    <versionId value="1" />
+    <lastUpdated value="2020-09-17T18:39:10.513+00:00" />
+  </meta>
+  <language value="pt-BR" />
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAtendimento" />
+  <version value="201701A" />
+  <name value="Tipo de Local de Atendimento" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2020-09-17T18:39:16.8725098+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="Classifica de forma genérica o lugar onde ocorre o atendimento ao indivíduo." />
+  <content value="complete" />
+  <concept>
+    <code value="domicilio" />
+    <display value="Domicílio" />
+  </concept>
+  <concept>
+    <code value="instituicao" />
+    <display value="Instituição ou abrigo" />
+  </concept>
+  <concept>
+    <code value="prisional" />
+    <display value="Unidade prisional ou congêneres" />
+  </concept>
+  <concept>
+    <code value="socioeducativa" />
+    <display value="Unidade socioeducativa" />
+  </concept>
+  <concept>
+    <code value="estabelecimento" />
+    <display value="No próprio estabelecimento" />
+  </concept>
+  <concept>
+    <code value="outros" />
+    <display value="Outros" />
+  </concept>
+  <concept>
+    <code value="movel" />
+    <display value="Unidade móvel" />
+  </concept>
+  <concept>
+    <code value="rua" />
+    <display value="Rua" />
+  </concept>
+  <concept>
+    <code value="educacional" />
+    <display value="Escola ou creche" />
+  </concept>
+  <concept>
+    <code value="academia-saude" />
+    <display value="Pólo Academia da Saúde" />
+  </concept>
+  <concept>
+    <code value="uti" />
+    <display value="Unidade de Terapia Intensiva" />
+  </concept>
+</CodeSystem>

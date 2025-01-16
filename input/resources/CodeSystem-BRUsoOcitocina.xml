@@ -1,0 +1,43 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRUsoOcitocina" />
+  <meta>
+    <lastUpdated value="2021-12-01T13:16:09.8385573+00:00" />
+  </meta>
+  <language value="pt-BR" />
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRUsoOcitocina" />
+  <version value="1.0" />
+  <name value="BRUsoOcitocina" />
+  <title value="Uso de Ocitocina" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2021-12-01T13:16:09.8385573+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="Code System utilizado para definir o uso de Ocitocina." />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="1" />
+    <display value="Sim, para condução do Trabalho de Parto" />
+  </concept>
+  <concept>
+    <code value="2" />
+    <display value="Sim, para indução do Trabalho de Parto" />
+  </concept>
+  <concept>
+    <code value="3" />
+    <display value="Sim, pós-parto" />
+  </concept>
+  <concept>
+    <code value="4" />
+    <display value="Sim, outras situações" />
+  </concept>
+  <concept>
+    <code value="5" />
+    <display value="Não" />
+  </concept>
+  <concept>
+    <code value="9" />
+    <display value="Ignorado" />
+  </concept>
+
+</CodeSystem>

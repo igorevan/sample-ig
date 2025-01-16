@@ -1,0 +1,33 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="RoupasUsadasMedicao" />
+  <language value="pt-BR" />
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/RoupasUsadasMedicao" />
+  <version value="01.00" />
+  <name value="RoupasUsadasMedicao" />
+  <title value="Roupas Usadas na Medição" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2022-05-23T09:26:09.8385573+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description
+    value="ValueSet utilizado para definir o tipo de roupa usada durante a medição corpórea com base na lista de respostas da LOINC de código LL742-8." />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="http://loinc.org" />
+      <version value="*" />
+      <concept>
+        <code value="LA11871-3" />
+        <display value="Roupa íntima ou menos" />
+      </concept>
+      <concept>
+        <code value="LA11872-1" />
+        <display value="Roupas de rua, sem sapatos" />
+      </concept>
+      <concept>
+        <code value="LA11873-9" />
+        <display value="Roupas e sapatos de rua" />
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

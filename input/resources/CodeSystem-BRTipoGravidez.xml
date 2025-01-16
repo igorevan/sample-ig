@@ -1,0 +1,37 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BRTipoGravidez" />
+  <language value="pt-BR" />
+  <text>
+    <status value="generated" />
+    <div xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
+      <p>CodeSystem para classificação do Tipo Gravidez</p>
+    </div>
+  </text>
+  <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoGravidez" />
+  <version value="1.0.0" />
+  <name value="BRTipoGravidez" />
+  <title value="Tipo Gravidez" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2024-10-01T13:16:09.8385573+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="Code System utilizado para a classificação do Tipo Gravidez." />
+  <caseSensitive value="true" />
+  <content value="complete" />
+  <concept>
+    <code value="1" />
+    <display value="Única" />
+  </concept>
+  <concept>
+    <code value="2" />
+    <display value="Dupla" />
+  </concept>
+  <concept>
+    <code value="3" />
+    <display value="Tripla ou mais" />
+  </concept>
+  <concept>
+    <code value="4" />
+    <display value="Desconhecida" />
+  </concept>
+</CodeSystem>

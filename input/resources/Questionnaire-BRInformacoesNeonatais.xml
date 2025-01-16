@@ -1,0 +1,140 @@
+<Questionnaire xmlns="http://hl7.org/fhir">
+  <id value="BRInformacoesNeonatais" />
+  <language value="pt-BR" />
+  <text>
+    <status value="generated" />
+    <div xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
+      <p>Este questionário é utilizado para registrar informações neonatais.</p>
+    </div>
+  </text>
+  <url value="http://www.saude.gov.br/fhir/r4/Questionnaire/BRInformacoesNeonatais" />
+  <version value="1.0.0" />
+  <name value="BRInformacoesNeonatais" />
+  <title value="Informações Neonatais" />
+  <status value="active" />
+  <date value="2024-08-01T20:40:24.2353053+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="Questionario contendo as informações de nascimento do neonato" />
+  <purpose
+    value="Modelo destinado a estruturar o questionario das informações para nascimento de um individuo neonato" />
+  <item>
+    <linkId value="1" />
+    <text value="Ordem do nascimento se gemelar" />
+    <type value="integer" />
+    <required value="false" />
+  </item>
+  <item>
+    <linkId value="2" />
+    <text value="Recebeu alta conjunta com a mãe?" />
+    <type value="boolean" />
+    <required value="true" />
+  </item>
+  <item>
+    <linkId value="3" />
+    <text value="Data e hora do nascimento" />
+    <type value="dateTime" />
+    <required value="true" />
+  </item>
+  <item>
+    <linkId value="4" />
+    <text value="Condições ao nascer" />
+    <type value="choice" />
+    <required value="true" />
+    <answerOption>
+      <valueCoding>
+        <display value="Vivo" />
+      </valueCoding>
+    </answerOption>
+    <answerOption>
+      <valueCoding>
+        <display value="Morto" />
+      </valueCoding>
+    </answerOption>
+  </item>
+  <item>
+    <linkId value="5" />
+    <text value="Reanimação em sala de parto" />
+    <type value="boolean" />
+    <required value="true" />
+  </item>
+  <item>
+    <linkId value="6" />
+    <text value="Oxigênio terapia" />
+    <type value="boolean" />
+    <required value="true" />
+  </item>
+  <item>
+    <linkId value="7" />
+    <text value="Ventilação com pressão positiva" />
+    <type value="boolean" />
+    <required value="true" />
+  </item>
+  <item>
+    <linkId value="8" />
+    <text value="Intubação orotraqueal" />
+    <type value="boolean" />
+    <required value="true" />
+  </item>
+  <item>
+    <linkId value="9" />
+    <text value="Droga vasoativa" />
+    <type value="boolean" />
+    <required value="true" />
+  </item>
+  <item>
+    <linkId value="10" />
+    <text value="Indice de Apgar 1 minuto" />
+    <type value="integer" />
+    <required value="false" />
+  </item>
+  <item>
+    <linkId value="11" />
+    <text value="Indice de Apgar 5 minutos" />
+    <type value="integer" />
+    <required value="false" />
+  </item>
+  <item>
+    <linkId value="12" />
+    <text value="Contato pele a pele realizado" />
+    <type value="choice" />
+    <required value="true" />
+    <answerOption>
+      <valueCoding>
+        <display value="Sim em sala de parto" />
+      </valueCoding>
+    </answerOption>
+    <answerOption>
+      <valueCoding>
+        <display value="Sim em UTI" />
+      </valueCoding>
+    </answerOption>
+    <answerOption>
+      <valueCoding>
+        <display value="Não em sala de parto" />
+      </valueCoding>
+    </answerOption>
+    <answerOption>
+      <valueCoding>
+        <display value="Não em UTI" />
+      </valueCoding>
+    </answerOption>
+  </item>
+  <item>
+    <linkId value="13" />
+    <text value="Amamentação na primeira hora de vida" />
+    <type value="boolean" />
+    <required value="true" />
+  </item>
+  <item>
+    <linkId value="14" />
+    <text value="Amamentação exclusiva na primeira hora" />
+    <type value="boolean" />
+    <required value="true" />
+  </item>
+  <item>
+    <linkId value="15" />
+    <text value="Corte do cordão umbilical" />
+    <type value="boolean" />
+    <required value="true" />
+  </item>
+</Questionnaire>

@@ -1,0 +1,28 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BREstadoContatoAssistencial-1.0" />
+  <language value="pt-BR" />
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoContatoAssistencial-1.0" />
+  <version value="1.0" />
+  <name value="BREstadoContatoAssistencial" />
+  <title value="Estado do Contato Assistencial" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2020-04-07T21:01:35.632661+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="Classifica o estado de um Contato Assistencial." />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/encounter-status" />
+      <version value="*" />
+      <concept>
+        <code value="finished" />
+        <display value="Contato Assistencial finalizado ou concluído" />
+      </concept>
+      <concept>
+        <code value="entered-in-error" />
+        <display value="Contato Assistencial anulado por informação errada" />
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

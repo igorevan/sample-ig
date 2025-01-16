@@ -1,0 +1,208 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="BRRestricaoFuncionalIncapacidadeSaude-1.0" />
+  <meta>
+    <versionId value="1" />
+    <lastUpdated value="2024-10-22T17:21:53.4104412+00:00" />
+  </meta>
+  <language value="pt-BR" />
+  <url
+    value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRestricaoFuncionalIncapacidadeSaude-1.0" />
+  <version value="1.0" />
+  <name value="BRRestricaoFuncionalIncapacidadeSaude" />
+  <title value="Restrições Funcionais e Incapacidades em Saúde" />
+  <status value="draft" />
+  <experimental value="false" />
+  <date value="2020-09-20T20:14:54.4843666+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description
+    value="Registra restrições funcionais ou incapacidades em saúde observadas no indivíduo." />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Condition" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Condition">
+      <path value="Condition" />
+      <short value="Restrições Funcionais e Incapacidades em Saúde" />
+      <definition
+        value="Registra restrições funcionais ou incapacidades em saúde observadas no indivíduo." />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.identifier">
+      <path value="Condition.identifier" />
+      <max value="0" />
+    </element>
+    <element id="Condition.clinicalStatus">
+      <path value="Condition.clinicalStatus" />
+      <short value="Status da Restrição Funcional ou Incapacidade" />
+      <definition value="O estado clínico da condição." />
+      <min value="1" />
+      <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <description value="Estado da Restrição Funcional ou Incapacidade de Saúde" />
+        <valueSet
+          value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoRestricaoFuncionalIncapacidadeSaude-1.0" />
+      </binding>
+    </element>
+    <element id="Condition.clinicalStatus.coding">
+      <path value="Condition.clinicalStatus.coding" />
+      <max value="1" />
+    </element>
+    <element id="Condition.clinicalStatus.coding.version">
+      <path value="Condition.clinicalStatus.coding.version" />
+      <max value="0" />
+    </element>
+    <element id="Condition.clinicalStatus.coding.code">
+      <path value="Condition.clinicalStatus.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Condition.clinicalStatus.coding.display">
+      <path value="Condition.clinicalStatus.coding.display" />
+      <max value="0" />
+    </element>
+    <element id="Condition.clinicalStatus.coding.userSelected">
+      <path value="Condition.clinicalStatus.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="Condition.clinicalStatus.text">
+      <path value="Condition.clinicalStatus.text" />
+      <max value="0" />
+    </element>
+    <element id="Condition.verificationStatus">
+      <path value="Condition.verificationStatus" />
+      <max value="0" />
+    </element>
+    <element id="Condition.category">
+      <path value="Condition.category" />
+      <max value="0" />
+    </element>
+    <element id="Condition.severity">
+      <path value="Condition.severity" />
+      <max value="0" />
+    </element>
+    <element id="Condition.code">
+      <path value="Condition.code" />
+      <short value="Restrição Funcional ou Incapacidade" />
+      <definition value="Identificação da restrição funcional ou incapacidade em saúde." />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.code.coding">
+      <path value="Condition.code.coding" />
+      <max value="0" />
+    </element>
+    <element id="Condition.code.coding.display">
+      <path value="Condition.code.coding.display" />
+      <max value="0" />
+    </element>
+    <element id="Condition.code.coding.userSelected">
+      <path value="Condition.code.coding.userSelected" />
+      <max value="0" />
+    </element>
+    <element id="Condition.code.text">
+      <path value="Condition.code.text" />
+      <short value="Representação em Texto Livre do Conceito" />
+      <definition
+        value="Representação em linguagem natural do conceito como visto/selecionado/enviado pelo usuário que registrou a informação e/ou que representa o significado da intenção do usuário." />
+      <min value="1" />
+    </element>
+    <element id="Condition.bodySite">
+      <path value="Condition.bodySite" />
+      <max value="0" />
+    </element>
+    <element id="Condition.subject">
+      <path value="Condition.subject" />
+      <short value="Indivíduo com a restrição funcional e/ou incapacidade em saúde" />
+      <definition
+        value="Indica o paciente ou grupo o qual tem a restrição funcional e/ou incapacidade em saúde registrada." />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element id="Condition.subject.id">
+      <path value="Condition.subject.id" />
+      <max value="0" />
+    </element>
+    <element id="Condition.subject.reference">
+      <path value="Condition.subject.reference" />
+      <max value="0" />
+    </element>
+    <element id="Condition.subject.type">
+      <path value="Condition.subject.type" />
+      <max value="0" />
+    </element>
+    <element id="Condition.subject.identifier">
+      <path value="Condition.subject.identifier" />
+      <min value="1" />
+    </element>
+    <element id="Condition.subject.identifier.use">
+      <path value="Condition.subject.identifier.use" />
+      <max value="0" />
+    </element>
+    <element id="Condition.subject.identifier.type">
+      <path value="Condition.subject.identifier.type" />
+      <max value="0" />
+    </element>
+    <element id="Condition.subject.identifier.system">
+      <path value="Condition.subject.identifier.system" />
+      <min value="1" />
+    </element>
+    <element id="Condition.subject.identifier.value">
+      <path value="Condition.subject.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Condition.subject.identifier.period">
+      <path value="Condition.subject.identifier.period" />
+      <max value="0" />
+    </element>
+    <element id="Condition.subject.identifier.assigner">
+      <path value="Condition.subject.identifier.assigner" />
+      <max value="0" />
+    </element>
+    <element id="Condition.subject.display">
+      <path value="Condition.subject.display" />
+      <max value="0" />
+    </element>
+    <element id="Condition.encounter">
+      <path value="Condition.encounter" />
+      <max value="0" />
+    </element>
+    <element id="Condition.onset[x]">
+      <path value="Condition.onset[x]" />
+      <max value="0" />
+    </element>
+    <element id="Condition.abatement[x]">
+      <path value="Condition.abatement[x]" />
+      <max value="0" />
+    </element>
+    <element id="Condition.recordedDate">
+      <path value="Condition.recordedDate" />
+      <max value="0" />
+    </element>
+    <element id="Condition.recorder">
+      <path value="Condition.recorder" />
+      <max value="0" />
+    </element>
+    <element id="Condition.asserter">
+      <path value="Condition.asserter" />
+      <max value="0" />
+    </element>
+    <element id="Condition.stage">
+      <path value="Condition.stage" />
+      <max value="0" />
+    </element>
+    <element id="Condition.evidence">
+      <path value="Condition.evidence" />
+      <max value="0" />
+    </element>
+    <element id="Condition.note">
+      <path value="Condition.note" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>
