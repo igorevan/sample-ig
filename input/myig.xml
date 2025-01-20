@@ -42,7 +42,7 @@
     <version value="1.0.0" />
   </dependsOn> -->
   <definition>
-    <resource>
+    <!-- <resource>
       <reference>
         <reference value="Bundle/Bundle-Materno" />
       </reference>
@@ -71,7 +71,7 @@
         value="Bundle de exemplo do Sumário de Alta Obstétrico (SAO) Neonato" />
       <exampleCanonical
         value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAltaObstetricoNeonato" />
-    </resource>
+    </resource> -->
     <page>
       <nameUrl value="toc.html" />
       <title value="Índice" />

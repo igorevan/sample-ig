@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-    <id value="9eace61a-fca0-43c9-9846-9f8dd001c943" />
+    <id value="BRCBO" />
     <meta>
-    <lastUpdated value="2020-03-11T12:05:01.176+00:00" />
+        <lastUpdated value="2020-03-11T12:05:01.176+00:00" />
     </meta>
     <language value="pt-BR" />
     <url value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO" />
     <version value="201701A" />
-    <name value="Classificação Brasileira de Ocupações - CBO" />
+    <name value="BRCBO" />
+    <title value="Classificação Brasileira de Ocupações - CBO" />
     <status value="active" />
     <experimental value="false" />
     <date value="2020-03-11T12:05:18.2868027+00:00" />
@@ -794,7 +794,8 @@
     </concept>
     <concept>
         <code value="114405" />
-        <display value="DIRIGENTE E ADMINISTRADOR DE ORGANIZACAO DA SOCIEDADE CIVIL SEM FINS LUCRATIVOS" />
+        <display
+            value="DIRIGENTE E ADMINISTRADOR DE ORGANIZACAO DA SOCIEDADE CIVIL SEM FINS LUCRATIVOS" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -878,7 +879,8 @@
     </concept>
     <concept>
         <code value="122205" />
-        <display value="DIRETOR DE PRODUCAO E OPERACOES DA INDUSTRIA DE TRANSFORMACAO, EXTRACAO MINERAL E UTILIDADES" />
+        <display
+            value="DIRETOR DE PRODUCAO E OPERACOES DA INDUSTRIA DE TRANSFORMACAO, EXTRACAO MINERAL E UTILIDADES" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -3710,7 +3712,8 @@
     </concept>
     <concept>
         <code value="214515" />
-        <display value="ENGENHEIRO QUIMICO (MINERACAO, METALURGIA, SIDERURGIA, CIMENTEIRA E CERAMICA)" />
+        <display
+            value="ENGENHEIRO QUIMICO (MINERACAO, METALURGIA, SIDERURGIA, CIMENTEIRA E CERAMICA)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -6218,7 +6221,8 @@
     </concept>
     <concept>
         <code value="231205" />
-        <display value="PROFESSOR DA EDUCACAO DE JOVENS E ADULTOS DO ENSINO FUNDAMENTAL (PRIMEIRA A QUARTA SERIE)" />
+        <display
+            value="PROFESSOR DA EDUCACAO DE JOVENS E ADULTOS DO ENSINO FUNDAMENTAL (PRIMEIRA A QUARTA SERIE)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -7454,7 +7458,8 @@
     </concept>
     <concept>
         <code value="234910" />
-        <display value="PROFESSOR DE ARTES VISUAIS NO ENSINO SUPERIOR (ARTES PLASTICAS E MULTIMIDIA)" />
+        <display
+            value="PROFESSOR DE ARTES VISUAIS NO ENSINO SUPERIOR (ARTES PLASTICAS E MULTIMIDIA)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -10034,7 +10039,8 @@
     </concept>
     <concept>
         <code value="311515" />
-        <display value="TECNICO DE UTILIDADE (PRODUCAO E DISTRIBUICAO DE VAPOR, GASES, OLEOS, COMBUSTIVEIS, ENERGIA)" />
+        <display
+            value="TECNICO DE UTILIDADE (PRODUCAO E DISTRIBUICAO DE VAPOR, GASES, OLEOS, COMBUSTIVEIS, ENERGIA)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -10286,7 +10292,8 @@
     </concept>
     <concept>
         <code value="313115" />
-        <display value="ELETROTENICO NA FABRICACAO, MONTAGEM E INSTALACAO DE MAQUINAS E EQUIPAMENTOS" />
+        <display
+            value="ELETROTENICO NA FABRICACAO, MONTAGEM E INSTALACAO DE MAQUINAS E EQUIPAMENTOS" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -10346,7 +10353,8 @@
     </concept>
     <concept>
         <code value="313210" />
-        <display value="TECNICO DE MANUTENCAO ELETRONICA (CIRCUITOS DE MAQUINAS COM COMANDO NUMERICO)" />
+        <display
+            value="TECNICO DE MANUTENCAO ELETRONICA (CIRCUITOS DE MAQUINAS COM COMANDO NUMERICO)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -13694,7 +13702,8 @@
     </concept>
     <concept>
         <code value="373205" />
-        <display value="TECNICO EM OPERACAO DE EQUIPAMENTOS DE PRODUCAO PARA TELEVISAO E PRODUTORAS DE VIDEO" />
+        <display
+            value="TECNICO EM OPERACAO DE EQUIPAMENTOS DE PRODUCAO PARA TELEVISAO E PRODUTORAS DE VIDEO" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -13730,7 +13739,8 @@
     </concept>
     <concept>
         <code value="373220" />
-        <display value="SUPERVISOR TECNICO OPERACIONAL DE SISTEMAS DE TELEVISAO E PRODUTORAS DE VIDEO" />
+        <display
+            value="SUPERVISOR TECNICO OPERACIONAL DE SISTEMAS DE TELEVISAO E PRODUTORAS DE VIDEO" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -14642,7 +14652,8 @@
     </concept>
     <concept>
         <code value="395105" />
-        <display value="TECNICO DE APOIO EM PESQUISA E DESENVOLVIMENTO (EXCETO AGROPECUARIO E FLORESTAL)" />
+        <display
+            value="TECNICO DE APOIO EM PESQUISA E DESENVOLVIMENTO (EXCETO AGROPECUARIO E FLORESTAL)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -19742,7 +19753,8 @@
     </concept>
     <concept>
         <code value="632505" />
-        <display value="TRABALHADOR DA EXPLORACAO DE ARVORES E ARBUSTOS PRODUTORES DE SUBSTANCIAS AROMAT , MEDIC  E TOXICAS" />
+        <display
+            value="TRABALHADOR DA EXPLORACAO DE ARVORES E ARBUSTOS PRODUTORES DE SUBSTANCIAS AROMAT , MEDIC  E TOXICAS" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -19754,7 +19766,8 @@
     </concept>
     <concept>
         <code value="632510" />
-        <display value="TRABALHADOR DA EXPLORACAO DE CIPOS PRODUTORES DE SUBSTANCIAS AROMATICAS, MEDICINAIS E TOXICAS" />
+        <display
+            value="TRABALHADOR DA EXPLORACAO DE CIPOS PRODUTORES DE SUBSTANCIAS AROMATICAS, MEDICINAIS E TOXICAS" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -19778,7 +19791,8 @@
     </concept>
     <concept>
         <code value="632520" />
-        <display value="TRABALHADOR DA EXPLORACAO DE RAIZES PRODUTORAS DE SUBSTANCIAS AROMATICAS, MEDICINAIS E TOXICAS" />
+        <display
+            value="TRABALHADOR DA EXPLORACAO DE RAIZES PRODUTORAS DE SUBSTANCIAS AROMATICAS, MEDICINAIS E TOXICAS" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -19790,7 +19804,8 @@
     </concept>
     <concept>
         <code value="632525" />
-        <display value="TRABALHADOR DA EXTRACAO DE SUBSTANCIAS AROMATICAS, MEDICINAIS E TOXICAS, EM GERAL" />
+        <display
+            value="TRABALHADOR DA EXTRACAO DE SUBSTANCIAS AROMATICAS, MEDICINAIS E TOXICAS, EM GERAL" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -19910,7 +19925,8 @@
     </concept>
     <concept>
         <code value="643005" />
-        <display value="TRABALHADOR NA OPERACAO DE SISTEMA DE IRRIGACAO LOCALIZADA (MICROASPERSAO E GOTEJAMENTO)" />
+        <display
+            value="TRABALHADOR NA OPERACAO DE SISTEMA DE IRRIGACAO LOCALIZADA (MICROASPERSAO E GOTEJAMENTO)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -19946,7 +19962,8 @@
     </concept>
     <concept>
         <code value="643020" />
-        <display value="TRABALHADOR NA OPERACAO DE SISTEMAS DE IRRIGACAO E ASPERSAO (ALTO PROPELIDO)" />
+        <display
+            value="TRABALHADOR NA OPERACAO DE SISTEMAS DE IRRIGACAO E ASPERSAO (ALTO PROPELIDO)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -22850,7 +22867,8 @@
     </concept>
     <concept>
         <code value="731110" />
-        <display value="MONTADOR DE EQUIPAMENTOS ELETRONICOS (COMPUTADORES E EQUIPAMENTOS AUXILIARES)" />
+        <display
+            value="MONTADOR DE EQUIPAMENTOS ELETRONICOS (COMPUTADORES E EQUIPAMENTOS AUXILIARES)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -23030,7 +23048,8 @@
     </concept>
     <concept>
         <code value="731205" />
-        <display value="MONTADOR DE EQUIPAMENTOS ELETRONICOS (ESTACAO DE RADIO, TV E EQUIPAMENTOS DE RADAR)" />
+        <display
+            value="MONTADOR DE EQUIPAMENTOS ELETRONICOS (ESTACAO DE RADIO, TV E EQUIPAMENTOS DE RADAR)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -23114,7 +23133,8 @@
     </concept>
     <concept>
         <code value="732105" />
-        <display value="ELETRICISTA DE MANUTENCAO DE LINHAS ELETRICAS, TELEFONICAS E DE COMUNICACAO DE DADOS" />
+        <display
+            value="ELETRICISTA DE MANUTENCAO DE LINHAS ELETRICAS, TELEFONICAS E DE COMUNICACAO DE DADOS" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -23150,7 +23170,8 @@
     </concept>
     <concept>
         <code value="732120" />
-        <display value="INSTALADOR DE LINHAS ELETRICAS DE ALTA E BAIXATENSAO (REDE AEREA E SUBTERRANEA)" />
+        <display
+            value="INSTALADOR DE LINHAS ELETRICAS DE ALTA E BAIXATENSAO (REDE AEREA E SUBTERRANEA)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -23390,7 +23411,8 @@
     </concept>
     <concept>
         <code value="750205" />
-        <display value="SUPERVISOR DA INDUSTRIA DE MINERAIS NAO METALICOS (EXCETO OS DERIVADOS DE PETROLEO E CARVAO)" />
+        <display
+            value="SUPERVISOR DA INDUSTRIA DE MINERAIS NAO METALICOS (EXCETO OS DERIVADOS DE PETROLEO E CARVAO)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -27542,7 +27564,8 @@
     </concept>
     <concept>
         <code value="811415" />
-        <display value="OPERADOR DE ALAMBIQUE DE FUNCIONAMENTO CONTINUO (PRODUTOS QUIMICOS, EXCETO PETROLEO)" />
+        <display
+            value="OPERADOR DE ALAMBIQUE DE FUNCIONAMENTO CONTINUO (PRODUTOS QUIMICOS, EXCETO PETROLEO)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -27554,7 +27577,8 @@
     </concept>
     <concept>
         <code value="811420" />
-        <display value="OPERADOR DE APARELHO DE REACAO E CONVERSAO (PRODUTOS QUIMICOS, EXCETO PETROLEO)" />
+        <display
+            value="OPERADOR DE APARELHO DE REACAO E CONVERSAO (PRODUTOS QUIMICOS, EXCETO PETROLEO)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -27890,7 +27914,8 @@
     </concept>
     <concept>
         <code value="811820" />
-        <display value="OPERADOR DE MAQUINA DE FABRICACAO DE PRODUTOS DE HIGIENE E LIMPEZA (SABAO, SABONETE, DETERGENTE, ABSORVENTE, FRALDAS COTONETES E OUTROS)" />
+        <display
+            value="OPERADOR DE MAQUINA DE FABRICACAO DE PRODUTOS DE HIGIENE E LIMPEZA (SABAO, SABONETE, DETERGENTE, ABSORVENTE, FRALDAS COTONETES E OUTROS)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -28430,7 +28455,8 @@
     </concept>
     <concept>
         <code value="821440" />
-        <display value="OPERADOR DE TESOURA MECANICA E MAQUINA DE CORTE, NO ACABAMENTO DE CHAPAS E METAIS" />
+        <display
+            value="OPERADOR DE TESOURA MECANICA E MAQUINA DE CORTE, NO ACABAMENTO DE CHAPAS E METAIS" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -29654,7 +29680,8 @@
     </concept>
     <concept>
         <code value="842135" />
-        <display value="OPERADOR DE MAQUINA DE PREPARACAO DE MATERIA PRIMA PARA PRODUCAO DE CIGARROS" />
+        <display
+            value="OPERADOR DE MAQUINA DE PREPARACAO DE MATERIA PRIMA PARA PRODUCAO DE CIGARROS" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30014,7 +30041,8 @@
     </concept>
     <concept>
         <code value="860110" />
-        <display value="SUPERVISOR DE OPERACAO DE FLUIDOS (DISTRIBUICAO, CAPTACAO, TRATAMENTO DE AGUA, GASES, VAPOR)" />
+        <display
+            value="SUPERVISOR DE OPERACAO DE FLUIDOS (DISTRIBUICAO, CAPTACAO, TRATAMENTO DE AGUA, GASES, VAPOR)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30026,7 +30054,8 @@
     </concept>
     <concept>
         <code value="860115" />
-        <display value="SUPERVISOR DE OPERACAO ELETRICA (GERACAO, TRANSMISSAO E DISTRIBUICAO DE ENERGIA ELETRICA)" />
+        <display
+            value="SUPERVISOR DE OPERACAO ELETRICA (GERACAO, TRANSMISSAO E DISTRIBUICAO DE ENERGIA ELETRICA)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30182,7 +30211,8 @@
     </concept>
     <concept>
         <code value="862155" />
-        <display value="OPERADOR DE UTILIDADE (PRODUCAO E DISTRIBUICAO DE VAPOR, GAS, OLEO, COMBUSTIVEL, ENERGIA, OXIGENIO)" />
+        <display
+            value="OPERADOR DE UTILIDADE (PRODUCAO E DISTRIBUICAO DE VAPOR, GAS, OLEO, COMBUSTIVEL, ENERGIA, OXIGENIO)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30230,7 +30260,8 @@
     </concept>
     <concept>
         <code value="862310" />
-        <display value="OPERADOR DE FORNO DE INCINERACAO NO TRATAMENTO DE AGUA, EFLUENTES E RESIDUOS INDUSTRIAIS" />
+        <display
+            value="OPERADOR DE FORNO DE INCINERACAO NO TRATAMENTO DE AGUA, EFLUENTES E RESIDUOS INDUSTRIAIS" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30242,7 +30273,8 @@
     </concept>
     <concept>
         <code value="862405" />
-        <display value="OPERADOR DE INSTALACAO DE EXTRACAO, PROCESSAMENTO, ENVASAMENTO E DISTRIBUICAO DE GASES" />
+        <display
+            value="OPERADOR DE INSTALACAO DE EXTRACAO, PROCESSAMENTO, ENVASAMENTO E DISTRIBUICAO DE GASES" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30302,7 +30334,8 @@
     </concept>
     <concept>
         <code value="910110" />
-        <display value="SUPERVISOR DE MANUTENCAO DE APARELHOS TERMICOS, DE CLIMATIZACAO E DE REFRIGERACAO" />
+        <display
+            value="SUPERVISOR DE MANUTENCAO DE APARELHOS TERMICOS, DE CLIMATIZACAO E DE REFRIGERACAO" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30314,7 +30347,8 @@
     </concept>
     <concept>
         <code value="910115" />
-        <display value="SUPERVISOR DE MANUTENCAO DE BOMBAS, MOTORES, COMPRESSORES E EQUIPAMENTOS DE TRANSMISSAO" />
+        <display
+            value="SUPERVISOR DE MANUTENCAO DE BOMBAS, MOTORES, COMPRESSORES E EQUIPAMENTOS DE TRANSMISSAO" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30494,7 +30528,8 @@
     </concept>
     <concept>
         <code value="911205" />
-        <display value="MECANICO DE MANUTENCAO E INSTALACAO DE APARELHOS DE CLIMATIZACAO E REFRIGERACAO" />
+        <display
+            value="MECANICO DE MANUTENCAO E INSTALACAO DE APARELHOS DE CLIMATIZACAO E REFRIGERACAO" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30626,7 +30661,8 @@
     </concept>
     <concept>
         <code value="914110" />
-        <display value="MECANICO DE MANUTENCAO DE SISTEMA HIDRAULICO DE AERONAVES (SERVICOS DE PISTA E HANGAR)" />
+        <display
+            value="MECANICO DE MANUTENCAO DE SISTEMA HIDRAULICO DE AERONAVES (SERVICOS DE PISTA E HANGAR)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -30854,7 +30890,8 @@
     </concept>
     <concept>
         <code value="919205" />
-        <display value="MECANICO DE MANUTENCAO DE MAQUINAS CORTADORAS DE GRAMA, ROCADEIRAS, MOTOSSERRAS E SIMILARES" />
+        <display
+            value="MECANICO DE MANUTENCAO DE MAQUINAS CORTADORAS DE GRAMA, ROCADEIRAS, MOTOSSERRAS E SIMILARES" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -31034,7 +31071,8 @@
     </concept>
     <concept>
         <code value="953115" />
-        <display value="ELETRICISTA DE INSTALACOES (VEICULOS AUTOMOTORES E MAQUINAS OPERATRIZES, EXCETO AERONAVES E EMBARCACOES)" />
+        <display
+            value="ELETRICISTA DE INSTALACOES (VEICULOS AUTOMOTORES E MAQUINAS OPERATRIZES, EXCETO AERONAVES E EMBARCACOES)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -31298,7 +31336,8 @@
     </concept>
     <concept>
         <code value="992205" />
-        <display value="ENCARREGADO GERAL DE OPERACOES DE CONSERVACAO DE VIAS PERMANENTES (EXCETO TRILHOS)" />
+        <display
+            value="ENCARREGADO GERAL DE OPERACOES DE CONSERVACAO DE VIAS PERMANENTES (EXCETO TRILHOS)" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />
@@ -31370,7 +31409,8 @@
     </concept>
     <concept>
         <code value="141810" />
-        <display value="Gerente de empresa aérea e empresa de serviços auxiliares ao transporte aéreo (esata) em aeroportos" />
+        <display
+            value="Gerente de empresa aérea e empresa de serviços auxiliares ao transporte aéreo (esata) em aeroportos" />
         <property>
             <code value="healthcare" />
             <valueBoolean value="false" />

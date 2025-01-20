@@ -100,7 +100,8 @@
   </concept>
   <concept>
     <code value="BRACREFITO" />
-    <display value="Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)" />
+    <display
+      value="Número de inscrição no Conselho Regional de Fisioterapia e Terapia Ocupacional (CREFITO)" />
     <property>
       <code value="use" />
       <valueCode value="patient" />

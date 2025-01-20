@@ -91,6 +91,7 @@
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDoula|*" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal|*" : null,
   "http://hl7.org/fhir/participationstatus|*" : null,
+  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao|null" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoResultadoRSBAC|*" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN|*" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTerminologiaPatogeno|*" : null,

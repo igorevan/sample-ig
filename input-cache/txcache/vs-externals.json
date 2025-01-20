@@ -123,6 +123,7 @@
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRResultadoQualitativoExame-2.0" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0" : null,
+  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao|null" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmEAN|*" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRAlergenos-1.0" : null,
