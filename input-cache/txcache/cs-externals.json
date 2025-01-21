@@ -65,6 +65,7 @@
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BROrgaoExpedidor|*" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho|*" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoEstabelecimentoSaude|*" : null,
+  "http://hl7.org/fhir/ValueSet/medication-status|null" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem|*" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRNacionalidade|*" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA|*" : null,

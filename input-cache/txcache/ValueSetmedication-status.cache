@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/ValueSet/medication-status",
+      "concept" : [{
+        "code" : "active",
+        "display" : "Ativo"
+      },
+      {
+        "code" : "entered-in-error",
+        "display" : "Entrada com erro"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/ValueSet/medication-status"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : false,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/ValueSet/medication-status",
+      "concept" : [{
+        "code" : "active",
+        "display" : "Ativo"
+      },
+      {
+        "code" : "entered-in-error",
+        "display" : "Entrada com erro"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/ValueSet/medication-status"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://hl7.org/fhir/ValueSet/medication-status",
+      "concept" : [{
+        "code" : "active",
+        "display" : "Ativo"
+      },
+      {
+        "code" : "entered-in-error",
+        "display" : "Entrada com erro"
+      }]
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/ValueSet/medication-status"
+}
+-------------------------------------------------------------------------------------

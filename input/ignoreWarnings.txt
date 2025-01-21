@@ -24,9 +24,9 @@ An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xh
 %StructureDefinition/BRIndividuo-1.0%
 %StructureDefinition/BRProfissional-1.0%
 %StructureDefinition/BREstabelecimentoSaude-1.0%
+%StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0%
+%StructureDefinition/BRLotacaoProfissional-1.0%
 %Practitioner/012345678912345%
-%StructureDefinition/BRIndividuoNaoIdentificado-1.0%
-%http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0%
 
 # Errors related to the RNDS CodeSystem specifications
 The property uri 'http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0' is not known, so the property values can not be validated fully; unless specified elsewhere, codes will be treated as internal references
@@ -61,3 +61,7 @@ A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabela
 The code '44223004' is not valid in the system http://snomed.info/sct version * (44223004)
 A definition for CodeSystem 'http://snomed.info/sct' version '*' could not be found, so the code cannot be validated. Valid versions: [http://snomed.info/sct/11000146104/version/20240930,http://snomed.info/sct/11000172109/version/20231115,http://snomed.info/sct/2011000195101/version/20230607,http://snomed.info/sct/20611000087101/version/20220930,http://snomed.info/sct/32506021000036107/version/20230731,http://snomed.info/sct/45991000052106/version/20220531,http://snomed.info/sct/45991000052106/version/20231130,http://snomed.info/sct/554471000005108/version/20240331,http://snomed.info/sct/731000124108/version/20240901,http://snomed.info/sct/827022005/version/20221130,http://snomed.info/sct/83821000000107/version/20230412,http://snomed.info/sct/900000000000207008/version/20230731,http://snomed.info/sct/900000000000207008/version/20240201,http://snomed.info/sct/900000000000207008/version/20240801]
 Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoObservacao version *
+Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1
+
+# Errors related to the RNDS specifications
+For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance

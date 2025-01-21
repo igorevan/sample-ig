@@ -9,7 +9,7 @@
     <valueInteger value="1" />
   </extension>
   <url value="http://www.saude.gov.br/fhir/r4/ImplementationGuide/br.gov.saude.sample.fhir" />
-  <version value="0.1.0" />
+  <version value="1.0.0" />
   <name value="SAMPLERNDSIG" />
   <title value="Guia de Implementação Sample da RNDS" />
   <status value="active" />

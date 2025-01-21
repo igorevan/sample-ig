@@ -335,40 +335,6 @@
       </type>
       <mustSupport value="true" />
     </element>
-    <element id="Procedure.subject.extension:unidentifiedPatient.extension">
-      <path value="Procedure.subject.extension.extension" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="url" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-      <min value="0" />
-    </element>
-    <element id="Procedure.subject.extension:unidentifiedPatient.extension:gender">
-      <path value="Procedure.subject.extension.extension" />
-      <sliceName value="gender" />
-      <min value="0" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Procedure.subject.extension:unidentifiedPatient.extension:birthYear">
-      <path value="Procedure.subject.extension.extension" />
-      <sliceName value="birthYear" />
-      <min value="0" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Procedure.subject.extension:unidentifiedPatient.extension:reason">
-      <path value="Procedure.subject.extension.extension" />
-      <sliceName value="reason" />
-      <min value="0" />
-      <mustSupport value="true" />
-    </element>
-    <element id="Procedure.subject.extension:unidentifiedPatient.url">
-      <path value="Procedure.subject.extension.url" />
-      <fixedUri
-        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0" />
-    </element>
     <element id="Procedure.subject.reference">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
@@ -475,7 +441,6 @@
     </element>
     <element id="Procedure.performer:practitioner">
       <path value="Procedure.performer" />
-      <sliceName value="practitioner" />
       <short value="Executante" />
       <definition
         value="Permite identificar:&#xD;&#xA;- o(s) profissional(is) lotado(s) em um Estabelecimento de Saúde inscrito no CNES que realizou(aram) o procedimento, sua(s) respectiva(s) ocupação(ões) e o Estabelecimento de Saúde Terceiro (quando aplicável) - OPÇÃO PREFERENCIAL;&#xD;&#xA;- apenas a(s) ocupação(ões) do(s) profisssional(is) que realizou(aram) o procedimento, seu(s) Estabelecimento(s) de Saúde inscrito(s) no CNES e o Estabelecimento de Saúde Terceiro (quando aplicável) - OPÇÃO ALTERNATIVA quando o profissional não está inscrito no respectivo CNES ou o modelo de origem não disponha dessa informação;&#xD;&#xA;- apenas a(s) ocupação(ões) do(s) profisssional(is) que realizou(aram) o procedimento, a(s) organização(ões) identificada(s) pelo CNPJ (pessoa jurídica) ou CPF (profissional liberal) onde o procedimento foi realizado e o Estabelecimento de Saúde Terceiro (quando aplicável) - ÚLTIMA OPÇÃO, utilizar apenas quando o estabelecimento de saúde não possui inscrição no CNES ou o modelo de origem não disponha dessa informação." />

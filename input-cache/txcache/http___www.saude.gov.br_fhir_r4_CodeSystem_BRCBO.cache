@@ -15,7 +15,6 @@ v: {
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
   "version" : "0.1.0",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -38,10 +37,30 @@ v: {
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
   "version" : "0.1.0",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+      "version" : "*"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO version *"
 }
 -------------------------------------------------------------------------------------

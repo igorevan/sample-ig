@@ -12,6 +12,7 @@
   <name value="BRInformacoesNeonatais" />
   <title value="Informações Neonatais" />
   <status value="active" />
+  <experimental value="false" />
   <date value="2024-08-01T20:40:24.2353053+00:00" />
   <publisher value="Ministério da Saúde do Brasil" />
   <description value="Questionario contendo as informações de nascimento do neonato" />

@@ -17,6 +17,7 @@
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRStatusRequisicaoRegulacaoAssistencial" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI|*" : null,
+  "http://hl7.org/fhir/administrative-gender|*" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencialMIRA" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoAmostra-1.0" : null,
   "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmANVISA|*" : null,
@@ -158,5 +159,6 @@
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaCondicao" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0" : null,
   "http://www.saude.gov.br/fhir/r4/ValueSet/BRStatusParticipante" : null,
-  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida|*" : null
+  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida|*" : null,
+  "http://www.saude.gov.br/fhir/r4/CodeSystem/BRJustificativaIndividuoNaoIdentificado|*" : null
 }

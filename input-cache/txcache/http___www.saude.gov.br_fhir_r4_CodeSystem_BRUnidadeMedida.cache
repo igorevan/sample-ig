@@ -15,7 +15,6 @@ v: {
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida",
   "version" : "0.1.0",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -38,7 +37,6 @@ v: {
   "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida",
   "version" : "0.1.0",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome"
 }
@@ -64,7 +62,6 @@ v: {
   "error" : "A definition for CodeSystem 'http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida' version '*' could not be found, so the code cannot be validated. Valid versions: [0.1.0]",
   "class" : "CODESYSTEM_UNSUPPORTED_VERSION",
   "server" : "http://tx.fhir.org/r4",
-  "unknown-systems" : "",
   "issues" : {
   "resourceType" : "OperationOutcome",
   "issue" : [{
@@ -86,5 +83,26 @@ v: {
   }]
 }
 
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "inactive" : true,
+    "include" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida",
+      "version" : "*"
+    }]
+  }
+}}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida version *"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRUnidadeMedidaMedicamento", "version": "0.1.0"}####
+e: {
+  "from-server" : true,
+  "error" : "Error from http://tx.fhir.org/r4: Unable to provide support for code system http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida version *"
 }
 -------------------------------------------------------------------------------------
